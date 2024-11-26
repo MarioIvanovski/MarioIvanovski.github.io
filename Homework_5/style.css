@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    gap: 5px;
+    background-color: #fff;
+    border: 5px solid #4d4d4d;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+    gap: 5px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}
+
+.box {
+    background-color: black;
+    border: 2px solid black;
+}
+
+.red {
+    background-color: red;
+    flex: 3;
+    height: 50vh;
+
+}
+
+.blue {
+    background-color: blue;
+    flex: 2;
+
+    
+}
+
+.yellow {
+    background-color: yellow;
+    flex: 2;
+}
+
+.beige {
+    background-color: beige;
+    flex: 1;
+    padding-left: 110px;
+}
+
+.wide {
+    flex: 3;
+}
+
+.narrow {
+    flex: 2;
+}
+
+.small .yellow {
+    height: 100%;
+}
