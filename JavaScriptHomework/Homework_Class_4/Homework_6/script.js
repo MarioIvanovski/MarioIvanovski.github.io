@@ -11,7 +11,7 @@ for (let i = 0; i < 2; i++) {
 }
 
 for (let i = 0; i < 2; i++) {
-    element = `${i}.`+firstNames[i]+" "+lastNames[i];
+    element = `4.`+firstNames[i]+" "+lastNames[i];
     combinationArray.push(element);
 }
 console.log(combinationArray);
