@@ -10,7 +10,9 @@ console.log(removeFalsyValues(array));
 
 let array = [1, null, 5, undefined, 'hello', NaN, false, 'world', '', true];
 let result = [];
-for(let i=0;i<array.length;i++)
+function deleteUnwanted()
+{
+    for(let i=0;i<array.length;i++)
 {
 
    if(array[i] !== null && array[i] !== undefined && array[i] && array[i] !== false && array[i] !== '')
@@ -20,5 +22,8 @@ for(let i=0;i<array.length;i++)
    }
    
 }
+}
+
+deleteUnwanted();
 console.log(array);
 console.log(result);
