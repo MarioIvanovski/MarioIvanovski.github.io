@@ -24,6 +24,7 @@ function deleteUnwanted()
 }
 }
 
+console.log(array);
 deleteUnwanted();
 console.log(array);
 console.log(result);
